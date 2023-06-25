@@ -1,0 +1,187 @@
+/* -- google fonts --  */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+/* -- rest page --  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Belanosima', sans-serif;
+}
+
+/* main section */
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* navigation style */
+.navigation {
+    width: 70%;
+    margin: 0 auto;
+}
+nav {
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.text-wrap {
+    width: 60%;
+}
+
+.addr2 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+}
+
+.addr2 p {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.addr2 p a {
+    text-decoration: none;
+    color: #FF5400;
+}
+
+.nav-links {
+    border-top: 1px solid #DDDD;
+}
+.nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+}
+.nav-links ul li {
+    list-style-type: none;
+    margin-left: 4%;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.nvbtn {
+    background-color: #FF5400;
+    padding: 10px;
+}
+
+.nvbtn:hover {
+    background: #AB4105;
+    color: #fff;
+    transition: 1s ease-out;
+}
+
+li a    .nvbtn { 
+    color: #fff;
+}
+/* --- hero section starts from here --- */
+
+.hero {
+    width: 100%;
+    height: 450px;
+    background-image: url('../img/hero-back.jpg');
+    background-size: cover;
+}
+
+.hero-text {
+    width: 40%;
+    float: right;
+    /* background-color: #eee; */
+    margin-right: 13%;
+    margin-top: 4%;
+}
+
+.hero-text h2 {
+    font-size: 3em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 4em;
+    color: #FF5400;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.hero-btn {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 14%;
+    padding: 12px 40px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #FF5400;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+.hero-btn:hover {
+    background: #AB4105;
+    color: #fff;
+    transition: 1s ease;
+}
+/* --- sub hero starts from here --- */
+
+.sub-hero {
+    margin: 5%;
+    margin-bottom: 5%;
+}
+.sub-hero-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sbtxt1{
+    width: 90%;
+    border: 4px solid #E05D13;
+}
+
+.sbtxt1 h1 {
+    color: #E05D13;
+    font-size: 2em;
+    padding: 10% 5%;
+    line-height: 40px;
+    text-align: center;
+}
+.sbtxt2{
+    width: 90%;
+    border: 4px solid #008BD3;
+}
+
+.sbtxt2 h1 {
+    color: #008BD3;
+    font-size: 2em;
+    padding: 10% 5%;
+    line-height: 40px;
+    text-align: center;
+}
+.sbtxt3{
+    width: 90%;
+    border: 4px solid #74BB20;
+}
+
+.sbtxt3 h1 {
+    color: #74BB20;
+    font-size: 2em;
+    padding: 10% 5%;
+    line-height: 40px;
+    text-align: center;
+}
