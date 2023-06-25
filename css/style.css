@@ -1,6 +1,10 @@
 /* -- google fonts --  */
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+/* font-family: 'Belanosima', sans-serif; */
+
 /* -- rest page --  */
 *{
     margin: 0;
@@ -184,4 +188,50 @@ li a    .nvbtn {
     padding: 10% 5%;
     line-height: 40px;
     text-align: center;
+}
+
+/*  --- services section --- */
+.services {
+    background: #E8EEF7;
+}
+
+.service {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+.service-top {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.service-top h1 {
+    font-size: 3em;
+    padding-bottom: 2%;
+}
+.service-top p {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+.services-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.service-item {
+    background: #f2f5fa;
+    text-align: center;
+    height: 120px;
+    padding: 5% 5%;
+}
+
+.service-item h1 {
+    font-size: 17px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.service-item p {
+    font-size: 15px;
 }
